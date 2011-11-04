@@ -6,5 +6,5 @@ task :build do
 end
  
 task :release => :build do
-  system "gem push uniq-gem-repo-#{UniqGemRepo::VERSION}"
+  system "gem push uniq-gem-repo-#{UniqGemRepo::VERSION}.gem"
 end
