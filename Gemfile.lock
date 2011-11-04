@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    colorize (0.5.8)
+    mime-types (1.17.2)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    yajl-ruby (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize
+  rest-client
+  yajl-ruby
