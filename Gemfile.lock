@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    uniq-gem-repo (0.0.1)
+    uniq-gem-repo (0.0.2)
       colorize
       rest-client
       yajl-ruby

@@ -1,13 +1,10 @@
 #!/usr/bin/env ruby
 
-require 'bundler'
-Bundler.require
-
 require 'rest-client'
 require 'yajl'
 require 'colorize'
 
-GEM_SERVER = 'http://localhost:9393/'
+GEM_SERVER = 'http://red:1337/'
 
 if ARGV.size != 1
   puts "Please, provide only the gem file to be uploaded to the gem server!"
